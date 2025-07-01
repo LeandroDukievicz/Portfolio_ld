@@ -1,7 +1,9 @@
+import styles from "../styles/Home.module.css";
+
 export default function Home() {
   return (
     <>
-      <h1>Leandro Dukievicz</h1>
+      <h1 className={styles.title}>Leandro Dukievicz</h1>
     </>
   );
 }
